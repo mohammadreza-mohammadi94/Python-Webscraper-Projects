@@ -17,7 +17,7 @@ This Python script allows you to scrape detailed information about basketball pl
 
 ```bash
 git clone https://github.com/jigsaw1313/NBA-Players-Scraper-Plus-Dataset.git
-
+```
 ### 2. Navigate to the project directory:
 
 ```bash
