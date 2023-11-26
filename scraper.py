@@ -89,5 +89,5 @@ result_df.head()
 
 result_df.info()
 
-df.to_csv('nba-players2.csv')
+result_df.to_csv('nba-players2.csv')
 
