@@ -1,0 +1,23 @@
+# IP Ranges Configuration
+
+scraper:
+  source_url: "https://www.ipdeny.com/ipblocks/"
+  output_dir: "data/ip_zones"
+  delay_seconds: 0.1
+  max_retries: 3
+  timeout: 30
+
+converter:
+  input_dir: "data/ip_zones"
+  output_dir: "data/ip_ranges"
+  output_formats:
+    - json
+    - csv
+    - txt
+  sample_rate: 1.0
+  batch_size: 100
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/ip_ranges.log"
